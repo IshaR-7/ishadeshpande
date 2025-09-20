@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("connect.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+  color: #000;
+}
+
+.name-title {
+  display: inline-block;
+  border: 2px solid #000;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.0); /* transparent background */
+}
+
+.contact {
+  margin-top: 60px;
+  font-size: 30px;
+  line-height: 2.5em;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.contact-item img {
+  width: 28px;
+  height: 28px;
+}
+
+/* Make LinkedIn link match text style */
+.contact-item a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}

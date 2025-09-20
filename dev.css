@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("dev.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.title {
+  display: inline-block;
+  border: 3px solid #fff;
+  padding: 10px 20px;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0 auto 40px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.project a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+.project img {
+  width: 250px;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.project img:hover {
+  transform: scale(1.05);
+}
+
+.project p {
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: bold;
+}

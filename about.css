@@ -1,0 +1,77 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background */
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background: url("profile.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Centered content box */
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Name Title */
+.title {
+  font-size: 35px;
+  font-weight: bold;
+  border: 3px solid white;
+  display: inline-block;
+  padding: 48px 100px;
+  margin-bottom: 50px;
+}
+
+/* Intro text */
+.intro {
+  font-size: 25px;
+  line-height: 1.5;
+  margin-bottom: 80px;
+  color: #f1f1f1;
+}
+
+/* Skills & Experience side by side */
+/* Container for both sections */
+.content-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  gap: 50px;
+}
+
+/* Equal width for both columns */
+.skills, .experience {
+  width: 45%;
+  text-align: center; /* Center everything */
+}
+
+/* Headings */
+.skills h2, .experience h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Paragraphs */
+.skills p, .experience p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+/* Closing line */
+.closing {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
